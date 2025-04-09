@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/jquery.marquee@1.6.0/jquery.marquee.min.js" type="text/javascript"></script>
+    <script src="./js/script.js"></script>  
+ 
+    <title>lixe</title>   
+</head>
+    <body>
+        <ul class="skip-navi">
+            <li><a href="#gnb" title="go to menu">go to menu</a></li>
+            <li><a href="#main" title="go to main">go to main</a></li>
+            <li><a href="#footer" title="go to footer">go to footer</a></li>
+        </ul>
+        <div id="wrap">
+             <header class="header mo-con">
+                <div class="container pc-only">
+                     <h1 class="logo"><a href="/"><img src="./images/lixe_logo.png" alt="lixe logo"></a></h1>
+                     <nav class="gnb" id="gnb">
+                         <ul class="gnb-list">
+                             <li><a href="/">Home</a></li>
+                             <li><a href="#main-sec03" >Business</a></li>
+                             <li><a href="#main-sec04" >Work</a></li>
+                             <li><a href="#main-sec05" >Teamwork</a></li>
+                             <li><a href="#main-sec06" >Contact</a></li>
+                         </ul>
+                        
+                     </nav>
+                 </div>
+                 <div class="mo-only">
+                     <h1 class="logo"><a href="#"><img src="./images/lixe_logo.png" alt="lixe logo"></a></h1>
+                     <div class="mo-gnb-btn">
+                         <span></span>
+                         <span></span>
+                         <span></span>
+                     </div>
+                     <div class="header-menu ">
+                         <div class="header-menu-inner">
+
+                             <div class="header-color-box">
+                                 <div class="header-color header-color01"></div>
+                                 <div class="header-color header-color02"></div>
+                                 <div class="header-color header-color03"></div>
+                                 <div class="header-color header-color04"></div>
+                                 <div class="header-color header-color05"></div>
+                             </div>
+                             <nav class="header-nav">
+                                 <ul class="mo-gnb-list">
+                                     <li><a href="/">Home</a></li>
+                                     <li><a href="#main-sec03" class="ani2">Business</a></li>
+                                     <li><a href="#main-sec04" class="ani2">Work</a></li>
+                                     <li><a href="#main-sec05" class="ani2">Teamwork</a></li>
+                                     <li><a href="#main-sec06" class="ani2">Contact</a></li>
+                                 </ul>
+                             </nav>
+                         </div>
+                     </div>
+                 </div>
+                 
+             </header>
+             
+             <section class="main-sec01" id="main">
+                <div class="video-wrap ch">
+                    <video autoplay=""  playsinline="" muted="" id="vid" >
+                        <source src="./videos/lixe_video.mp4" type="video/mp4" >
+                        <source src="./videos/main_video.webm" type="video/webm" class="edge">
+                        <source src="./videos/main_video.m4v" type="video/m4v">
+                        <source src="./videos/main_video.ogg" type="video/ogg">
+                    </video>
+                </div>  
+                <div class="video-txt">
+                    <h2 class="tit"><span>Li</span>fe. <span>Ex</span>perience</h2>
+                    <p class="desc">
+                        삶의 경험에 집중하는 라익스는<br>
+                        라익스와 연결된 모두에게도 최고의 경험을 제공합니다
+                    </p>
+                </div>
+             </section>
+            <script>
+              // 크롬 체크
+                var agent = navigator.userAgent.toLowerCase();
+                var ch = document.getElementsByClassName('ch');
+                if (agent.indexOf("chrome") != -1) {
+                 ch.classList.add("dd");
+                }
+
+            </script>
+             <section class="main-sec02 scroll-section" id="main-sec02">
+                   <div class="containers">
+                      
+                        <div id="ss-container" class="ss-container">
+                          
+                            <div class="ss-row pc-only">
+                                <div class="ss-left"><img src="./images/Maximize.png"></div>
+                            </div>
+                            <div class="ss-row pc-only">
+                                <div class="ss-right"><img src="./images/scrollTxt02_1.png"></div>
+                            </div>
+                            <div class="ss-row pc-only">
+                                <div class="ss-left"><img src="./images/scrollTxt03_1.png"></div>
+                            </div>
+                            
+                            <div class="ss-row mo-only">
+                                <div class="ss-left"><img src="./images/scrollTxt_01_m.png"></div>
+                            </div>
+                            <div class="ss-row mo-only">
+                                <div class="ss-right"><img src="./images/scrollTxt_02_m.png"></div>
+                            </div>
+                            <div class="ss-row mo-only">
+                                <div class="ss-left"><img src="./images/scrollTxt_03_m.png"></div>
+                            </div>
+                            <div class="ss-row mo-only">
+                                <div class="ss-right"><img src="./images/scrollTxt_04_m.png"></div>
+                            </div>
+                        </div>
+                    </div>
+             </section>
+             <section class="main-sec03" id="main-sec03">
+                 <div class="container">
+                    <div class="flex-wrap">
+                        <div class="left-side">
+                            <h3 class="sub-tit">Business</h3>
+                        </div>
+                        <div class="right-side pc-only">
+                            <div>
+                                <p class="tit ">UX Consulting</p>
+                                <p class="tit-desc">Provides the best experience to meet customers UX special group</p>
+                                <span class="desc">
+                                    기획, 디자인, 퍼블리싱, 구축, 운영, 유지보수, 컨설팅 서비스 업무에 이르기까지<br>
+                                    다양한 서비스를 통해 국내 IT 시장에 빠르게 대응하고 있으며,<br>
+                                    고객가치를 극대화 하기 위해 축적된 노하우와 차별화된 서비스를 제공하고 있습니다.
+                                </span>
+                            </div>
+                            <div>
+                                <p class="tit ">Camping Platform</p> 
+                                <p class="tit-desc">Experience-driven camping platform development</p>
+                                <span class="desc ">캠핑 경험을 극대화 할 수 있는 여행로그 기반 소셜 플랫폼 사업</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="business-wrap flex-wrap pc-only">
+                        <div class="bus01"><img src="./images/bus_img01.png" alt=""></div>
+                        <div class="bus02"><img src="./images/bus_img02.png" alt=""></div>
+                    </div>
+                 </div>
+                 <div class="right-side mo-only">
+                            <div class="img-wrap-top">
+                                <img src="./images/bus_img01.png" alt="">
+                                <p class="tit ">UX Consulting</p>
+                                <p class="tit-desc">Provides the best experience to meet customers<br> UX special group</p>
+                                <span class="desc">
+                                    기획, 디자인, 퍼블리싱, 구축, 운영, 유지보수, 컨설팅 서비스 업무에 이르기까지
+                                    다양한 서비스를 통해 국내 IT 시장에 빠르게 대응하고 있으며,
+                                    고객가치를 극대화 하기 위해 축적된 노하우와 차별화된 서비스를 제공하고 있습니다.
+                                </span>
+                            </div>
+                            <div class="img-wrap-bottom">
+                                <img src="./images/bus_img02.png" alt="">
+                                <div class=txt-wrap>
+                                    <p class="tit ">Camping Platform</p> 
+                                    <p class="tit-desc">Experience-driven camping platform development</p>
+                                    <span class="desc ">캠핑 경험을 극대화 할 수 있는 여행로그 기반 소셜 플랫폼 사업</span>
+                                </div>
+                                
+                            </div>
+                </div>
+             </section>
+             <section class="main-sec04 mo-con" id="main-sec04">
+                 <div class="container">
+                     <div class="work-tit mo-con">
+                            <h3 class="sub-tit">Work</h3>
+                            <p class="sub-desc">Lixe의 프로젝트를 소개합니다.</p>
+                     </div>
+                     <ul class="work-tab pc-only">
+                        <li class="tab_item tabAll active">All</li>
+                        <li class="tab_item tab2023">2023</li>
+                        <li class="tab_item tab2022">2022</li>
+                        <li class="tab_item tab2021">2021</li>
+                        <li class="tab_item tab2020">2020</li>
+                     </ul>
+                     <div class="swiper-container work-slide mo-only">
+                         <ul class="swiper-wrapper work-tab">
+                            <li class="swiper-slide tab_item tabAll active">All</li>
+                            <li class="swiper-slide tab_item tab2023">2023</li>
+                            <li class="swiper-slide tab_item tab2022">2022</li>
+                            <li class="swiper-slide tab_item tab2021">2021</li>
+                            <li class="swiper-slide tab_item tab2020">2020</li>
+                         </ul>
+                     </div>
+                     
+                     <ul class="work-content img-content pc-only">
+                         <li class="w2023">
+                                 <div class="project-wrap flex-wrap">
+                                     <div class="listing-img"><img src="./images/pj_01.jpg" alt="" ></div>
+                                     <div class="project-txt">
+                                        <p class="date">2023.01</p>
+                                        <p class="project-tit">
+                                            비에날씬<br>
+                                            기업 웹 사이트 리뉴얼
+                                        </p>
+                                     </div>
+                                 </div>
+                        </li>
+                        <li class="w2021">
+                                 <div class="project-wrap flex-wrap">
+                                     <div class="project-txt">
+                                        <p class="date">2021.09</p>
+                                        <p class="project-tit">
+                                            요즘맘<br>
+                                            워킹맘을 위한<br>
+                                            커뮤니티 앱 서비스
+                                        </p>
+                                     </div>
+                                     <div class="listing-img"><img src="./images/pj_02.jpg" alt="" ></div>
+                                     
+                                 </div>
+                         </li>
+                         <li class="w2021">
+                                 <div class="project-wrap flex-wrap">
+                                     <div class="listing-img"><img src="./images/pj_03.jpg" alt="" ></div>
+                                     <div class="project-txt">
+                                        <p class="date">2021.06</p>
+                                        <p class="project-tit">
+                                            더마펌<br>
+                                            고기능성 코스메틱 공식몰 리뉴얼
+                                        </p>
+                                     </div>
+                                 </div>
+                         </li>
+                         <li class="w2021">
+                                 <div class="project-wrap flex-wrap">
+                                     <div class="project-txt">
+                                        <p class="date">2021.01</p>
+                                        <p class="project-tit">
+                                            더키친<br>
+                                            주방가구 견적 앱 오픈<br>
+                                            (자사서비스)
+                                        </p>
+                                     </div>
+                                     <div class="listing-img"><img src="./images/pj_04.jpg" alt="" ></div>
+                                 </div>
+                         </li>
+                         <li class="w2020">
+                                 <div class="project-wrap flex-wrap">
+                                     <div class="listing-img"><img src="./images/pj_05.jpg" alt="" ></div>
+                                     <div class="project-txt">
+                                        <p class="date">2020.12</p>
+                                        <p class="project-tit">
+                                            모던하우스<br>
+                                            홈퍼니싱 공식몰 웹 / 앱 오픈
+                                        </p>
+                                     </div>
+                                 </div>
+                         </li>
+                         <li class="w2020">
+                                 <div class="project-wrap flex-wrap">
+                                     <div class="project-txt">
+                                        <p class="date">2020.12</p>
+                                        <p class="project-tit">
+                                            버터몰<br>
+                                            싱글라이프 스타일샵 몰 오픈
+                                        </p>
+                                     </div>
+                                      <div class="listing-img"><img src="./images/pj_06.jpg" alt="" ></div>
+                                 </div>
+                         </li>
+                         
+                     </ul>
+                     <ul class="work-content img-content mo-con mo-only">
+                         <li class="w2023">
+                                 <div class="project-wrap flex-wrap">
+                                     <div class="listing-img"><img src="./images/pj_01.jpg" alt="" ></div>
+                                     <div class="project-txt">
+                                        <p class="date">2023.01</p>
+                                        <p class="project-tit">
+                                            비에날씬<br>
+                                            기업 웹 사이트 리뉴얼
+                                        </p>
+                                     </div>
+                                 </div>
+                        </li>
+                        <li class="w2021">
+                                 <div class="project-wrap flex-wrap">
+                                     <div class="listing-img"><img src="./images/pj_02.jpg" alt="" ></div>
+                                     <div class="project-txt">
+                                        <p class="date">2021.09</p>
+                                        <p class="project-tit">
+                                            요즘맘<br>
+                                            워킹맘을 위한<br>
+                                            커뮤니티 앱 서비스
+                                        </p>
+                                     </div>
+                                 </div>
+                         </li>
+                         <li class="w2021">
+                                 <div class="project-wrap flex-wrap">
+                                     <div class="listing-img"><img src="./images/pj_03.jpg" alt="" ></div>
+                                     <div class="project-txt">
+                                        <p class="date">2021.06</p>
+                                        <p class="project-tit">
+                                            더마펌<br>
+                                            고기능성 코스메틱 공식몰 리뉴얼
+                                        </p>
+                                     </div>
+                                 </div>
+                         </li>
+                         <li class="w2021">
+                                 <div class="project-wrap flex-wrap">
+                                     <div class="listing-img"><img src="./images/pj_04.jpg" alt="" ></div>
+                                     <div class="project-txt">
+                                        <p class="date">2021.01</p>
+                                        <p class="project-tit">
+                                            더키친<br>
+                                            주방가구 견적 앱 오픈<br>
+                                            (자사서비스)
+                                        </p>
+                                     </div>
+                                 </div>
+                         </li>
+                         <li class="w2020">
+                                 <div class="project-wrap flex-wrap">
+                                     <div class="listing-img"><img src="./images/pj_05.jpg" alt="" ></div>
+                                     <div class="project-txt">
+                                        <p class="date">2020.12</p>
+                                        <p class="project-tit">
+                                            모던하우스<br>
+                                            홈퍼니싱 공식몰 웹 / 앱 오픈
+                                        </p>
+                                     </div>
+                                 </div>
+                         </li>
+                         <li class="w2020">
+                                 <div class="project-wrap flex-wrap">
+                                     <div class="listing-img"><img src="./images/pj_06.jpg" alt="" ></div>
+                                     <div class="project-txt">
+                                        <p class="date">2020.12</p>
+                                        <p class="project-tit">
+                                            버터몰<br>
+                                            싱글라이프 스타일샵 몰 오픈
+                                        </p>
+                                     </div>
+                                 </div>
+                         </li>
+                         
+                     </ul>
+                     <ul class="work-content work-txt-desc mo-con">
+                        <li class="w2023">
+                            <div class="work-txt-tit">이동통신사 멤버십 앱 고도화 서비스</div>
+                            <div class="work-txt-desc">[통신 / IT] App</div>
+                            <div class="date">2023.02</div>
+                        </li>
+                        <li class="w2022">
+                            <div class="work-txt-tit">이동통신사 고객 개통 / 해지 앱 / 웹 서비스</div>
+                            <div class="work-txt-desc">[통신 / IT] Web / Mobile Web / App</div>
+                            <div class="date">2022.12</div>
+                        </li>
+                        <li class="w2022">
+                            <div class="work-txt-tit">이동통신사 전기차 충전 앱 서비스</div>
+                            <div class="work-txt-desc">[전기차 / IT] App</div>
+                            <div class="date">2022.12</div>
+                        </li>
+                        <li class="w2022">
+                            <div class="work-txt-tit">이동통신사 인재채용 웹 구축</div>
+                            <div class="work-txt-desc">[통신 / IT] Web / Mobile Web</div>
+                            <div class="date">2022.10</div>
+                        </li>
+                        <li class="w2022">
+                            <div class="work-txt-tit">이동통신사 앱 리뉴얼</div>
+                            <div class="work-txt-desc">[통신 / IT] App</div>
+                            <div class="date">2022.09</div>
+                        </li>
+                        <li class="w2022">
+                            <div class="work-txt-tit">이동통신사 TV OTT 서비스 리뉴얼</div>
+                            <div class="work-txt-desc">[영상 / OTT] TV OTT</div>
+                            <div class="date">2022.07</div>
+                        </li>
+                        <li class="w2022">
+                            <div class="work-txt-tit">이동통신사 구독형 뉴스레터 앱 서비스</div>
+                            <div class="work-txt-desc">[통신 / IT] Mobile Web</div>
+                            <div class="date">2022.06</div>
+                        </li>
+                        <li class="w2022">
+                            <div class="work-txt-tit">비에날씬 파트너스몰 웹 구축</div>
+                            <div class="work-txt-desc">[커머스] Web</div>
+                            <div class="date">2022.06</div>
+                        </li>
+                        <li class="w2022 last">
+                            <div class="work-txt-tit">이동통신사 통합 ID 구축 프로젝트</div>
+                            <div class="work-txt-desc">[통신 / IT] Web / App</div>
+                            <div class="date">2022.04</div>
+                        </li>
+                        <li class="w2021 last">
+                            <div class="work-txt-tit">모던하우스 상품권 시스템 구축</div>
+                            <div class="work-txt-desc">[커머스] Web / Mobile Web</div>
+                            <div class="date">2021.01</div>
+                        </li>
+                        <li class="w2020">
+                            <div class="work-txt-tit">국내 대표 OTT TV 앱 구축 / 운영</div>
+                            <div class="work-txt-desc">[영상 / OTT] TV OTT</div>
+                            <div class="date">2020</div>
+                        </li>
+                        <li class="w2020 last">
+                            <div class="work-txt-tit">숏폼 영상 보상 플랫폼 '아잇' 앱 구축 / 운영 </div>
+                            <div class="work-txt-desc">[OTT] App</div>
+                            <div class="date">2020</div>
+                        </li>
+                     </ul>
+                     <div class="corp-wrap pc-only">
+                        <div><img src="./images/corp01.png" alt=""></div>
+                        <div><img src="./images/corp02.png" alt=""></div>
+                        <div><img src="./images/corp03.png" alt=""></div>
+                        <div><img src="./images/corp04.png" alt=""></div>
+                        <div><img src="./images/corp05.png" alt=""></div> 
+                     </div>
+                     <div class="corp-wrap mo-con mo-only">
+                        <div class="logo-top">
+                            <div><img src="./images/corp01.png" alt=""></div>
+                            <div><img src="./images/corp02.png" alt=""></div>
+                            <div><img src="./images/corp03.png" alt=""></div>
+                        </div>
+                        <div class="logo-bottom">
+                            <div><img src="./images/corp04.png" alt=""></div>
+                            <div><img src="./images/corp05.png" alt=""></div> 
+                        </div>
+                     </div>
+                 </div>
+                 
+             </section>
+             
+             <div class="asideBack"></div>
+             <div class="marquee-container">
+                 <div class="sliding-txt marquee-slide">
+                             UI UX PLANNER DEVELOPER DESIGNER 
+                             UI UX PLANNER DEVELOPER DESIGNER
+                             UI UX PLANNER DEVELOPER DESIGNER 
+                             UI UX PLANNER DEVELOPER DESIGNER
+                 </div>
+             </div>
+             <section class="main-sec05 " id="main-sec05">
+                     <div class="container mo-con">
+                         <h3 class="sub-tit">Team</h3>
+                         <p class="sub-desc">분야별 전문가와 최고의 팀웍으로 유저가 원하는 결과물을 만들어 갑니다.</p>
+                     </div>
+                     
+                     <div class="team-slide-wrap">
+                         <div class="team-slide swiper-container">
+                             <div class="swiper-wrapper">
+                                 <div class="swiper-slide">
+                                     <img src="./images/team_01.jpg" alt="">
+                                     <div class="name-wrap pt-25">
+                                         <p class="tit">박학훈</p>
+                                         <p class="desc">대표이사 (CEO)</p>
+                                     </div>
+                                 </div>
+                                 <div class="swiper-slide">
+                                     <img src="./images/team_02.jpg" alt="">
+                                     <div class="name-wrap pt-25">
+                                         <p class="tit">김명희</p>
+                                         <p class="desc">UX 팀장 </p>
+                                     </div>
+                                 </div>
+                                 <div class="swiper-slide">
+                                     <img src="./images/team_03.jpg" alt="">
+                                     <div class="name-wrap pt-25">
+                                         <p class="tit">노성덕</p>
+                                         <p class="desc">사업 팀장</p>
+                                     </div>
+                                 </div>
+                                 <div class="swiper-slide">
+                                     <img src="./images/team_04.jpg" alt="">
+                                     <div class="name-wrap pt-25">
+                                         <p class="tit">염상현</p>
+                                         <p class="desc">전략 이사 </p>
+                                     </div>
+                                 </div>
+                                 <div class="swiper-slide">
+                                     <img src="./images/team_05.jpg" alt="">
+                                     <div class="name-wrap pt-25">
+                                         <p class="tit">윤기홍</p>
+                                         <p class="desc">UX 실장</p>
+                                     </div>
+                                 </div>                                 
+                             </div>
+                             <div class="swiper-pagination"></div>
+                            
+                         </div>
+                     </div>
+                 
+             </section>
+             <section class="main-sec06 mo-con" id="main-sec06">
+                 <div class="container">
+                     <h3 class="sub-tit">Contact</h3>
+                     <div class="contact-img">
+
+                              <img src="./images/office_map_pc2.jpg" class="pc-only" alt="라익스 찾아오시는길" />
+                              <img src="./images/officemap_m.jpg" class="mo-only" alt="라익스 찾아오시는길" />
+                     </div>
+                
+                     <p class="desc">서울시 강남구 학동로3길 41 에스피오빌딩 4층</p>
+                 </div>
+             </section>
+             <section class="main-sec07 mo-con" id="main-sec07">
+                 <div class="container flex-wrap">
+                     <h4 class="corp-tit">
+                         서로 협력할 수 있는<br> 
+                         다양한 제안은<br> 
+                         <span>언제든 환영</span>합니다.
+                     </h4>
+                     <div class="form-wrap">
+                         <ul class="corp-info">
+                             <li>E. lixe@lixe.co.kr</li>
+                             <li>T. 010.5359.5616</li>
+                         </ul>  
+                         <p class="time">[연락 가능 시간] 월~금  am 09:00 ~ pm 06:00</p>  
+                         <div class="part-txt"> partners </div>
+                    </div>
+                 </div>
+             </section>
+             <footer class="footer" id="footer">
+                 <div class="container">
+                     <div class="copy-wrap">
+                         <img src="./images/lixe_logo.png" alt="라익스 로고">
+                         <p class="desc">
+                             서울시 강남구 학동로3길 41 에스피오빌딩 4층<br>
+                         </p>
+                         
+                         <p class="copy">copyright @ 2022 lixe all right reserved</p>
+                     </div>       
+                 </div>
+                 <div class="go-down" id="go-down"><img src="./images/topBtn.png"></div>
+             </footer>
+        </div>
+    </body>
+
+</html>
